@@ -1381,7 +1381,7 @@ def Main():
 
                 if loilike + loicamxuc + loicxcmt + loifl + loicmt + loishare + loilikepage == 0:
                     for i in range(10, 0, -1):
-                        Write.Print(f' Tất Cả Các Nhiệm Vụ Đã Hết, Vui Lòng Chờ {i} Giây ',Colors.Colors.rainbow,interval=0.0001, end = '\r');sleep(1); print('                                                        ', end = '\r')
+                        Write.Print(f' Tất Cả Các Nhiệm Vụ Đã Hết, Vui Lòng Chờ {i} Giây ',Colors.rainbow,interval=0.0001, end = '\r');sleep(1); print('                                                        ', end = '\r')
 
 if __name__ == '__main__':
     Main()
