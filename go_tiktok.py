@@ -19,6 +19,7 @@ def kiem_tra_mang():
         print("Mạng không ổn định hoặc bị mất kết nối. Vui lòng kiểm tra lại mạng.")
 
 kiem_tra_mang()
+scraper = cloudscraper.create_scraper()
 
 banner = f"""
 {Fore.YELLOW}╔══════════════════════════════════════════════════╗
